@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://ycchen-FZU.github.io/sitemap.xml
