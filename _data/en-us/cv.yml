@@ -5,7 +5,7 @@
       value: Bioseparation, Biopharmaceuticals, Artificial Intelligence
     - name: Email
       value: yu-cheng.chen(at)fzu.edu.cn
-    - name: Mailing Address
+    - name: Address
       value: No.2 Wulongjiang North Blvd, Fuzhou 350108, China
 
 - title: Work Experience
@@ -27,14 +27,14 @@
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D. of Engineering
+    - title: Direct Entry Ph.D. (Engineering)
       institution: Zhejiang University
       department: Institute of Bioengineering, College of Chemical and Biological Engineering
       location: Hangzhou, China
       year: 2020.09 – 2025.06
       description:
         - Major：Chemical Engineering and Technology
-        - Duration：5 years (Direct Doctoral Admission)
+        - Duration：5 years
         - Dissertation：Model development and optimization of biopharmaceutical chromatographic separation from mechanism-driven to hybrid modeling
 
     - title: Visiting Ph.D.
@@ -57,7 +57,7 @@
         - Duration：6 months (Funded by the Ministry of Science and Technology of China)
         - Research Topic：Residence time distribution in continuous virus filtration
 
-    - title: Bachelor of Engineering
+    - title: Bachelor (Engineering)
       institution: Xiamen University
       department: Department of Chemical and Biochemical Engineering, College of Chemistry and Chemical Engineering
       location: Xiamen, China
