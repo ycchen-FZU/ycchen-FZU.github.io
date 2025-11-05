@@ -211,6 +211,7 @@ exclude:
   - _pages/**/teaching.md
 
   - assets/img/flags
+  - assets/img/publication_preview
 
 keep_files:
   - CNAME
