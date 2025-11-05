@@ -81,39 +81,38 @@ cv:
   work: Work
 footer:
   copyright: Copyright
-  last_updated: "Last updated:"
+  last_updated: "Last updated (UTC+8):"
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a> theme.
+  . Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 latest_posts: latest posts
-months:
-  long:
-    january: January
-    february: February
-    march: March
-    april: April
-    may: May
-    june: June
-    july: July
-    august: August
-    september: September
-    october: October
-    november: November
-    december: December
-  short:
-    january: Jan
-    february: Feb
-    march: Mar
-    april: Apr
-    may: May
-    june: Jun
-    july: Jul
-    august: Aug
-    september: Sep
-    october: Oct
-    november: Nov
-    december: Dec
+#months:
+#  long:
+#    january: January
+#    february: February
+#    march: March
+#    april: April
+#    may: May
+#    june: June
+#    july: July
+#    august: August
+#    september: September
+#    october: October
+#    november: November
+#    december: December
+#  short:
+#    january: Jan
+#    february: Feb
+#    march: Mar
+#    april: Apr
+#    may: May
+#    june: Jun
+#    july: Jul
+#    august: Aug
+#    september: Sep
+#    october: Oct
+#    november: Nov
+#    december: Dec
 news: news
 newsletter:
   back: Back

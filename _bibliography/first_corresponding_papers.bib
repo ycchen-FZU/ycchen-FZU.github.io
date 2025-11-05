@@ -1,0 +1,252 @@
+---
+---
+
+
+@article{10,
+    date = {2025/07/07},
+    author = {Chen, Yu-Cheng and Fioretti, Ismaele and Lin, Dong-Qiang and Sponchioni*, Mattia},
+    title = {Hybrid modeling of the reversed-phase chromatographic purification of an oligonucleotide: Few-shot learning from differentiable physics solver-in-the-loop},
+    journal = {Biotechnology and Bioengineering},
+    volume = {122},
+    number = {8},
+    pages = {2179-2192},
+    abstract = {Hybrid models integrate mechanistic and data-driven components, effectively addressing the challenges of limited process understanding and data availability typical of biopharmaceutical processes. In this study, we applied a hybrid modeling framework named differentiable physics solver-in-the-loop (DP-SOL) to describe the reversed-phase chromatographic purification of an oligonucleotide, overcoming the mentioned limitations of purely mechanistic and data-driven models. The framework establishes a connection between neural networks (NNs) and mechanistic models through differentiable physical operators and their gradients. We first collected a data set comprising six linear gradient elution experiments at different resin loadings and gradient slopes, split in three experiments each for training and testing, for few-shot learning. The hyperparameters were determined through a grid search, resulting in a NN with two hidden layers and 14 nodes. Compared to a calibrated mechanistic model used for initialization of NN, the DP-SOL hybrid model showed significant performance improvement on both training and testing sets, with R2> ${R}^{2}\,\gt $ 0.97 for the former. The good predictivity of DP-SOL is attributed to the combination of mechanistic models and NNs at the solver level. As a novel and versatile hybrid modeling paradigm, DP-SOL has the potential to significantly impact modeling approaches in the downstream processing field and the broader biopharmaceutical sector.},
+    keywords = {Differentiable physics;
+Few-shot learning;
+Hybrid model;
+Oligonucleotide;
+Reversed-phased chromatography},
+    DOI = {10.1002/bit.29018},
+    year = {2025},
+    bibtex_show = {true},
+    dimensions = {true},
+    JCR = {2},
+    SCI = {3},
+    IF = {3.6 (2024)},
+    selected = {true},
+    preview = {20250707 B&B.png},
+    pdf = {20250707 B&B.pdf},
+}
+
+@article{9,
+    date = {2025/02/12},
+    author = {Chen, Yu-Cheng and Yao, Shan-Jing and Lin*, Dong-Qiang},
+    title = {Integrating order-of-magnitude analysis to physics-informed neural networks for linear chromatographic models},
+    journal = {Industrial & Engineering Chemistry Research},
+    volume = {64},
+    number = {6},
+    pages = {3168-3182},
+    abstract = {A hybrid (gray-box) modeling framework, physics-informed neural networks (PINNs), has garnered significant attention. However, a huge challenge in applying PINNs to bioprocesses is developing a loss function that synergizes different bioprocess dynamics. To mitigate this challenge, a novel physics-based deep learning method was developed by integrating order-of-magnitude analysis to the loss function of PINNs (oPINNs) using biological first principles. Compared to standard PINNs and numerical methods for solving the forward problem of linear chromatographic models, oPINNs demonstrated notable improvements: an order-of-magnitude enhancement in accuracy with an equivalent sample size, or a 32-fold reduction in sample size for equivalent accuracy, along with a 1000-fold acceleration in computational speed for millisecond-scale simulation. Moreover, oPINNs showed exceptional robustness in weight determination and hyperparameter selection amidst variations in chromatographic model parameters. In summary, oPINNs represent a significant advancement in integrating physics-based deep learning into hybrid modeling of bioprocesses, particularly for developing real-time digital twins.},
+    DOI = {10.1021/acs.iecr.4c03744},
+    year = {2025},
+    bibtex_show = {true},
+    dimensions = {true},
+    JCR = {2},
+    SCI = {3},
+    IF = {3.9 (2024)},
+    preview = {20250212 IECR.png},
+    pdf = {20250212 IECR.pdf},
+}
+
+@article{8,
+    date = {2025/01/25},
+    author = {Chen, Yu-Cheng and Zhong, Xue-Zhao and Shi, Ce and Chen, Ran and Sponchioni, Mattia and Yao, Shan-Jing and Lin*, Dong-Qiang},
+    title = {Mechanistic modeling of anti-Langmuirian to Langmuirian behavior of Fc-fusion proteins in cation exchange chromatography},
+    journal = {Journal of Chromatography A},
+    volume = {1741},
+    pages = {465602},
+    abstract = {Development of a next-generation chromatographic model, capable of simultaneously meeting academic demands for thermodynamic consistency and industrial requirements in everyday project work, has become a focal point of research. In this study, anti-Langmuirian to Langmuirian (AL-L) elution behavior was observed in cation-exchange chromatographic separation of charge variants of industrial Fc-fusion proteins. To characterize this behavior, the multi-protein Mollerup activity model was integrated into the steric mass action (SMA) model, resulting in a new model named the generalized ion-exchange (nGIEX) isotherm for multi-protein systems. An R2 exceeding 0.95 calibrated by three elution experiments indicates an effective description of the AL-L behavior (dynamic adsorption). Using isotherm sampling, the nGIEX model exhibited sigmoidal AL-L isotherms (static adsorption). Finally, the model's extrapolation capability was externally validated through process optimization, resulting in an optimal two-step elution condition and a yield improvement of the main variant from 25.9% to 89.1% within purity specifications (>70%).},
+    keywords = {Ion-exchange chromatography;
+Mechanistic model;
+Anti-Langmuirian to Langmuirian Behavior;
+Process optimization;
+Fc-fusion protein;
+Thermodynamic model; },
+    DOI = {10.1016/j.chroma.2024.465602},
+    year = {2025},
+    bibtex_show = {true},
+    dimensions = {true},
+    JCR = {1},
+    SCI = {1},
+    IF = {4.0 (2024)},
+    selected = {true},
+    preview = {20250125 JCA.png},
+    pdf = {20250125 JCA.pdf},
+}
+
+@article{7,
+    date = {2024/08/30},
+    author = {Chen, Yu-Cheng and Yao, Shan-Jing and Lin*, Dong-Qiang},
+    title = {Enhancing thermodynamic consistency: Clarification on the application of asymmetric activity model in multi-component chromatographic separation},
+    journal = {Journal of Chromatography A},
+    volume = {1731},
+    pages = {465156},
+    abstract = {The single-component Mollerup model, with over 40 direct applications and 442 citations, is the most widely used activity model for chromatographic mechanistic modeling. Many researchers have extended this formula to multi-component systems by directly adding subscripts, a modification deemed thermodynamically inconsistent (referred to as the reference model). In this work, we rederived the asymmetric activity model for multi-component systems, using the van der Waals equation of state, and termed it the multi-component Mollerup model. In contrast to the reference model, our proposed model accounts for the contributions of all components to the activity. Three numerical experiments were performed to investigate the impact of the three different activity models on the chromatographic modeling. The results indicate that our proposed model represents a thermodynamically consistent generalization of the single-component Mollerup model to multi-component systems. This communication advocates adopting of the multi-component Mollerup model for activity modeling in multi-component chromatographic separation to enhance thermodynamic consistency.},
+    keywords = {Thermodynamic model;
+Mechanistic model;
+Chromatography;
+Activity coefficient},
+    DOI = {10.1016/j.chroma.2024.465156},
+    year = {2024},
+    bibtex_show = {true},
+    dimensions = {true},
+    JCR = {1},
+    SCI = {1},
+    IF = {4.0},
+    selected = {true},
+    preview = {20240830 JCA.png},
+    pdf = {20240830 JCA.pdf},
+}
+
+
+@article{6,
+    date = {2024/05/27},
+    author = {Chen#, Yu-Cheng and Recanati#, Gabriele and De Mathia, Fernando and Lin, Dong-Qiang and Jungbauer*, Alois},
+    title = {Residence time distribution in continuous virus filtration},
+    journal = {Biotechnology and Bioengineering},
+    volume = {121},
+    number = {6},
+    pages = {1876-1888},
+    abstract = {Regulatory authorities recommend using residence time distribution (RTD) to address material traceability in continuous manufacturing. Continuous virus filtration is an essential but poorly understood step in biologics manufacturing in respect to fluid dynamics and scale-up. Here we describe a model that considers nonideal mixing and film resistance for RTD prediction in continuous virus filtration, and its experimental validation using the inert tracer NaNO(3). The model was successfully calibrated through pulse injection experiments, yielding good agreement between model prediction and experiment ( R2 > 0.90). The model enabled the prediction of RTD with variations-for example, in injection volumes, flow rates, tracer concentrations, and filter surface areas-and was validated using stepwise experiments and combined stepwise and pulse injection experiments. All validation experiments achieved R2 > 0.97. Notably, if the process includes a porous material-such as a porous chromatography material, ultrafilter, or virus filter-it must be considered whether the molecule size affects the RTD, as tracers with different sizes may penetrate the pore space differently. Calibration of the model with NaNO(3) enabled extrapolation to RTD of recombinant antibodies, which will promote significant savings in antibody consumption. This RTD model is ready for further application in end-to-end integrated continuous downstream processes, such as addressing material traceability during continuous virus filtration processes.},
+    keywords = {Continuous manufacturing;
+Downstream processing;
+Mechanistic model;
+Monoclonal antibody;
+Residence time distribution;
+Virus filtration},
+    DOI = {10.1002/bit.28696},
+    year = {2024},
+    bibtex_show = {true},
+    dimensions = {true},
+    JCR = {2},
+    SCI = {3},
+    IF = {3.6},
+    selected = {true},
+    preview = {20240527 B&B.png},
+    pdf = {20240527 B&B.pdf},
+}
+
+
+@article{5,
+    date = {2024/05/14},
+    author = {Lin*#, Dong-Qiang and Chen#, Yu-Cheng and Chen, Xin-Yu and Yao, Shan-Jing},
+    title = {Exploration and practice of online–offline blended teaching in process simulation courses},
+    journal = {Journal of Chemical Education},
+    volume = {101},
+    number = {5},
+    pages = {1966-1973},
+    abstract = {While process simulation tools offer immense potential in chemical engineering, effectively integrating them into the educational curriculum poses challenges. This work explored and practiced online−offline blended teaching in process simulation courses. The design of this blended course was based on a comparison of students’ performances in fully online courses, Massive Open Online Courses (MOOCs) and Small Private Online Course (SPOCs). pproximately 2000 students from academic institutions or industries have participated in these online courses since 2021. The comparison between MOOCs and SPOCs encompassed participation rates and scores, revealing a preference among participants for hands-on software lectures over theoretical ones in the process simulation course. Based on the outcomes of online learning, we redesigned the online−offline blended course to optimize course arrangements, leveraging the complementary advantages of both online and offline instruction. This blended approach manifested in two key aspects: first, the online segment served as a precursor to the offline component, with the offline component acting as an evaluative measure of the online segment; second, the two-unit project-based online learning led to the redesigned five-unit offline instruction, which served as both a supplement and expansion to the two-unit online teaching. Furthermore, offline activities, such as error-correction exercises and case studies conducted through group learning, enhanced students’ ability for open-ended and independent thinking and reinforced their understanding of innovation on process simulation, which was lacking in online learning. },
+    keywords = {Upper-division undergraduate;
+Computer-based learning;
+Testing/Assessment},
+    DOI = {10.1021/acs.jchemed.4c00095},
+    year = {2024},
+    bibtex_show = {true},
+    dimensions = {true},
+    JCR = {1},
+    SCI = {2},
+    IF = {2.9},
+    preview = {20240514 JCE.png},
+    pdf = {20240514 JCE.pdf},
+}
+
+@article{4,
+    date = {2024/03/12},
+    author = {Chen, Yu-Cheng and Lu, Hui-Li and Wang, Rong-Zhu and Sun, Guo and Zhang, Xue-Qin and Liang, Jing-Qi and Jungbauer, Alois and Yao, Shan-Jing and Lin*, Dong-Qiang},
+    title = {Standardized approach for accurate and reliable model development of ion-exchange chromatography based on parameter-by-parameter method and consideration of extra-column effects},
+    journal = {Biotechnology Journal},
+    volume = {19},
+    number = {3},
+    pages = {2300687},
+    abstract = {Developing an accurate and reliable model for chromatographic separation that meets regulatory requirements and ensures consistency in model development remains challenging. In order to address this challenge, a standardized approach was proposed in this study with ion-exchange chromatography (IEC). The approach includes the following steps: liquid flow identification, system and column-specific parameters determination and validation, multi-component system identification, protein amount validation, steric mass action parameters determination and evaluation, and validation of the calibrated model's generalization ability. The parameter-by-parameter (PbP) calibration method and the consideration of extra-column effects were integrated to enhance the accuracy of the developed models. The experiments designed for implementing the PbP method (five gradient experiments for model calibration and one stepwise experiment for model validation) not only streamline the experimental workload but also ensure the extrapolation abilities of the model. The effectiveness of the standardized approach is successfully validated through an application about the IEC separation of industrial antibody variants, and satisfactory results were observed with R(2) approximately 0.9 for the majority of calibration and validation experiments. The standardized approach proposed in this work contributes significantly to improve the accuracy and reliability of the developed IEC models. Models developed using this standardized approach are ready to be applied to a broader range of industrial separation systems, and are likely find further applications in model-assisted decision-making of process development.},
+    keywords = {Antibody charge variant;
+Extra-column effect;
+Ion-exchange chromatography;
+Model development;
+Steric mass action model},
+    DOI = {10.1002/biot.202300687},
+    year = {2024},
+    bibtex_show = {true},
+    dimensions = {true},
+    JCR = {2},
+    SCI = {3},
+    IF = {3.1},
+    preview = {20240312 BTJ.png},
+    pdf = {20240312 BTJ.pdf},
+}
+
+
+@article{3,
+    date = {2023/10/10},
+    author = {Chen, Yu-Cheng and Chen, Xin-Yu and Lin, Zhi-Yuan and Yao, Shan-Jing and Lin*, Dong-Qiang},
+    title = {Practical teaching of modeling tools for ion-exchange chromatography: A case study},
+    journal = {Journal of Chemical Education},
+    volume = {100},
+    number = {10},
+    pages = {3888–3896},
+    abstract = {The utilization of modeling tools has gained significant attention recently. These models typically involve a series of partial differential equations, which can be challenging for novice modelers. This paper presented an approach in practical teaching of modeling tools for ionexchange chromatography with three parts: model introduction, model calibration through group learning using different calibration strategies, and model applications. This approach was integrated into the traditional bioseparation engineering curriculum as an activity, using the separation of monomer−dimer mixtures of monoclonal antibodies as an example. Results of competitive group learning and the Wilcoxon test revealed that the parameter-by-parameter method was more user-friendly than the Yamamoto method for novice modelers to obtain reasonable model parameters quickly. Then, students used the well-fitted model for process optimization and explored the effects of process parameters and material input variation on the chromatography process, which helped students appreciate the critical role of time and material savings achieved through modeling tools. Finally, the student questionnaire results revealed that over two-thirds of the students gave positive feedback on the activity. Through this practical teaching, students became familiar with chromatography modeling tools, moving away from the tedious formulaic descriptions found in traditional modeling courses. This well-designed activity can be expanded from academia to industry, transforming the novice modelers into experienced modelers who can meet the high demands of the modern biopharmaceutical industry.},
+    keywords = {Upper-division undergraduate;
+Graduate education/Research;
+Analytical chemistry;
+Computer-based learning;
+Biotechnology;
+Chromatography;
+Drugs/Pharmaceuticals;
+Proteins/Peptides},
+    DOI = {10.1021/acs.jchemed.3c00439},
+    year = {2023},
+    bibtex_show = {true},
+    dimensions = {true},
+    JCR = {2},
+    SCI = {2},
+    IF = {2.5},
+    preview = {20231010 JCE.png},
+    pdf = {20231010 JCE.pdf},
+}
+
+@article{2,
+    date = {2023/01/04},
+    author = {Chen, Yu-Cheng and Yao, Shan-Jing and Lin*, Dong-Qiang},
+    title = {Parameter-by-parameter method for steric mass action model of ion exchange chromatography: Simplified estimation for steric shielding factor},
+    journal = {Journal of Chromatography A},
+    volume = {1687},
+    pages = {463655},
+    abstract = {Mechanistic models play a crucial role in the process development and optimization of ion-exchange chromatography (IEC). Recent researches in steric mass action (SMA) model have heightened the need for better estimation of nonlinear parameter, steric shielding factor σ. In this work, a straightforward approach combination of simplified linear approximation (SLA) and inverse method (IM) was proposed to initialize and further determine σ, respectively. An existed, unique, and positive σ can be derived from SLA. Compared with linear approximation (LA) developed in our previous study, σ of the multi-component system can be calculated easily without solving the complex system of linear equations, leading to a time complexity reduction from O(n3) to O(n). The proposed method was verified first in numerical experiments about the separation of three charge variants. The calculated σ was more reasonable than that of LA, and the error of elution profiles with the parameters estimated by SLA+IM was only one-sixth of that by LA in numerical experiments. Moreover, the error accumulation effect could also be reduced. The proposed method was further confirmed in real-world experiments about the separation of monomer-dimer mixtures of monoclonal antibody. The results gave a lower error and better physical understanding compared to LA. In conclusion, SLA+IM developed in the present work provides a novel and straightforward way to determine σ. This simplification would help to save the effort of calibration experiments and accelerate the process development for the multi-component IEC separation.},
+    keywords = {Ion-exchange chromatography;
+Steric mass action model;
+Model calibration;
+Steric shielding factor},
+    DOI = {10.1016/j.chroma.2022.463655},
+    year = {2023},
+    bibtex_show = {true},
+    dimensions = {true},
+    JCR = {1},
+    SCI = {2},
+    IF = {3.8},
+    preview = {20230104 JCA.png},
+    pdf = {20230104 JCA.pdf},
+}
+
+@article{1,
+    date = {2022/09/13},
+    author = {Chen, Yu-Cheng and Yao, Shan-Jing and Lin*, Dong-Qiang},
+    title = {Parameter-by-parameter method for steric mass action model of ion exchange chromatography: Theoretical considerations and experimental verification},
+    journal = {Journal of Chromatography A},
+    volume = {1680},
+    pages = {463418},
+    abstract = {Ion exchange chromatography (IEC) is one of the most widely-used techniques for protein separation and has been characterized by mechanistic models. However, the time-consuming and cumbersome model calibration hinders the application of mechanistic models for process development. A new methodology called "parameter-by-parameter method (PbP)" was proposed with mechanistic derivations of the steric mass action (SMA) model of IEC. The protocol includes four steps: (1) first linear regression (LR1) for characteristic charge; (2) second linear regression (LR2) for equilibrium coefficient; (3) linear approximation (LA) for shielding factor; (4) inverse method (IM) for kinetic coefficient. Four SMA parameters could be one-by-one determined in sequence, reducing the number of unknown parameters per species from four to one, and predicting almost consistent retention. Numerical single-component experiments were investigated firstly, and the PbP method showed excellent agreement between experiments and simulations. The effects of loadings on the PbP and Yamamoto methods were compared. It was found that the PbP method had higher accuracy and robustness than the Yamamoto method. Moreover, a five-experiment strategy was suggested to implement the PbP method, which is straightforward to reduce the cost of calibration experiments. Finally, a real-world multi-component separation was challenged and further confirmed the feasibility of the PbP method. In general, the proposed method can not only reliably estimate the SMA parameters with comprehensive physical understanding but also accurately predict retention over a wide range of loading conditions.},
+    keywords = {Ion-exchange chromatography;
+Steric mass action model;
+Parameter estimation;
+Mechanistic model},
+    DOI = {10.1016/j.chroma.2022.463418},
+    year = {2022},
+    bibtex_show = {true},
+    dimensions = {true},
+    JCR = {2},
+    SCI = {2},
+    IF = {4.1},
+    selected = {true},
+    preview = {20220913 JCA.png},
+    pdf = {20220913 JCA.pdf},
+}

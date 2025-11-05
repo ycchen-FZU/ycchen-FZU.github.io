@@ -522,6 +522,7 @@ footer.sticky-bottom {
       .badge {
         color: var(--global-card-bg-color) !important;
         background-color: var(--global-theme-color) !important;
+        margin-bottom: 8px;
       }
     }
   }
@@ -856,10 +857,12 @@ footer.sticky-bottom {
         transition: all 0.15s ease;
       }
 
+      div.keywords.hidden,
       div.abstract.hidden {
         border: dashed 1px var(--global-bg-color);
       }
 
+      div.keywords.hidden.open,
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
       }

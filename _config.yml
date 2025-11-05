@@ -1,136 +1,137 @@
 # -----------------------------------------------------------------------------
-# Site settings
+# 站点设置
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+title: 陈煜成 (Chen, Yu-Cheng) # 网站标题（如果为空，将使用全名代替）
+first_name: 煜成
+first_name_en: Yu-Cheng
+last_name: 陈
+last_name_en: Chen
+keywords: 生物分离 # 添加你自己的关键词或留空
+icon: ⚛️ # 用作网站图标的表情符号（或者在 /assets/img/ 中提供图片名称）
 
-url: https://ycchen-FZU.github.io # the base hostname & protocol for your site
-baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
-impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-back_to_top: true # set to false to disable the back to top button
+url: https://ycchen-FZU.github.io # 网站的主机名和协议
+baseurl: # 网站的子路径，例如 /blog/。根目录请留空
+last_updated: true # 如果希望在页脚显示最后更新时间，请设为 true
+impressum_path: # 设置页脚中 impressum 链接的路径，使用页面 permalink 的相同路径，有助于符合欧盟 GDPR
+back_to_top: true # 设置为 false 可禁用回到顶部按钮
+enable_publication_thumbnails: true
 
 # -----------------------------------------------------------------------------
-# Theme
+# 主题
 # -----------------------------------------------------------------------------
 
-# repo color theme
+# 仓库颜色主题
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
-  enabled: true
+  enabled: false
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
 
 # -----------------------------------------------------------------------------
 # RSS Feed
 # -----------------------------------------------------------------------------
-# will use title and url fields
-# Take a look to https://github.com/jekyll/jekyll-feed for more customization
+# 将使用 title 和 url 字段
+# 更多自定义请参考 https://github.com/jekyll/jekyll-feed
 
 rss_icon: true
 
 # -----------------------------------------------------------------------------
-# Layout
+# 布局
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
 footer_fixed: true
 search_enabled: true
-socials_in_search: true
-posts_in_search: true
+socials_in_search: false
+posts_in_search: false
 bib_search: true
 
-# Dimensions
+# 尺寸
 max_width: 1000px
 
-# TODO: add layout settings (single page vs. multi-page)
+# TODO: 添加布局设置（单页 vs 多页）
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
-# Display links to the page with a preview object on social media.
-# see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+# 在社交媒体上显示带预览的页面链接
+# 参考 https://schema.org/docs/faq.html 获取更多信息
+serve_og_meta: false # 在 HTML 头部包含 Open Graph 元标签
+serve_schema_org: false # 在 HTML 头部包含 Schema.org 元标签
+og_image: # 网站范围内（默认适用于所有链接）的 Open Graph 预览图片
 
 # -----------------------------------------------------------------------------
-# Analytics and search engine verification
+# 分析与搜索引擎验证
 # -----------------------------------------------------------------------------
 
-# For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
-# and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
-cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
-pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
-openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
+# Google Analytics 设置，请参考官方文档
+google_analytics: # 你的 Google Analytics 测量 ID（格式：G-XXXXXXXXXX）
+cronitor_analytics: # cronitor RUM 分析站点 ID（格式：XXXXXXXXX）
+pirsch_analytics: # Pirsch 分析站点 ID（长度 32 个字符）
+openpanel_analytics: # Openpanel 分析客户端 ID（格式：XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX）
 
-# For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: # your google-site-verification ID (Google Search Console)
-bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
+# Google Search Console 验证
+google_site_verification: # 你的 Google 验证 ID
+bing_site_verification: # 你的 Bing 验证 ID
 
 # -----------------------------------------------------------------------------
-# Blog
+# 博客
 # -----------------------------------------------------------------------------
 
-permalink: /blog/:year/:title/
-lsi: false # produce an index for related posts
+#permalink: /blog/:year/:title/ # TODO
+#lsi: True # 为相关文章生成索引
+#
+## 分页
+#pagination:
+#  enabled: true
+#  title: ":title - pagination.page :num"
+#
+#related_blog_posts:
+#  enabled: false
+#  max_related: 5
+#
+## Giscus 评论（推荐）
+## 按照 https://giscus.app/ 设置仓库并填写以下信息
+#giscus:
+#  repo: # <你的 GitHub 用户名>/<你的仓库名>
+#  repo_id: # 留空或指定你的 repo_id（参考 https://giscus.app/）
+#  category: Comments # 创建讨论的类别名称
+#  category_id: # 留空或指定你的 category_id（参考 https://giscus.app/）
+#  mapping: title # 按文章标题识别讨论
+#  strict: 1 # 使用严格识别模式
+#  reactions_enabled: 1 # 启用 (1) 或禁用 (0) 表情反应
+#  input_position: bottom # 输入框显示在评论下方（bottom）或上方（top）
+#  theme: preferred_color_scheme # 颜色方案名称（preferred 在 al-folio 亮/暗模式下效果良好）
+#  emit_metadata: 0
 
-# Pagination
-pagination:
-  enabled: true
-  title: ":title - pagination.page :num"
-
-related_blog_posts:
-  enabled: true
-  max_related: 5
-
-# Giscus comments (RECOMMENDED)
-# Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
-giscus:
-  repo: # <your-github-user-name>/<your-github-repo-name>
-  repo_id: # leave empty or specify your repo_id (see https://giscus.app/)
-  category: Comments # name of the category under which discussions will be created
-  category_id: # leave empty or specify your category_id (see https://giscus.app/)
-  mapping: title # identify discussions by post title
-  strict: 1 # use strict identification mode
-  reactions_enabled: 1 # enable (1) or disable (0) emoji reactions
-  input_position: bottom # whether to display input form below (bottom) or above (top) the comments
-  theme: preferred_color_scheme # name of the color scheme (preferred works well with al-folio light/dark mode)
-  emit_metadata: 0
-
-# Disqus comments (DEPRECATED)
-disqus_shortname: multi-language-al-folio # put your disqus shortname
+# Disqus 评论（已弃用）
+disqus_shortname: multi-language-al-folio # 填写你的 disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
-# External sources.
-# If you have blog posts published on medium.com or other external sources,
-# you can display them in your blog by adding a link to the RSS feed.
+# 外部来源
+# 如果你在 medium.com 或其他平台发布博客文章，
+# 可通过添加 RSS 链接显示到你的博客
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+#  - name: medium.com
+#    rss_url: https://medium.com/@al-folio/feed
+#  - name: Google Blog
+#    posts:
+#      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+#        published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
-# Newsletter
+# 通讯订阅
 # -----------------------------------------------------------------------------
 
 newsletter:
-  enabled: false
-  endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
+  enabled: False
+  endpoint: # 你的 Loops 端点（例如：https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT）
   # https://loops.so/docs/forms/custom-form
 
 # -----------------------------------------------------------------------------
-# Collections
+# 集合（Collections）
 # -----------------------------------------------------------------------------
 
 collections:
@@ -140,14 +141,14 @@ collections:
     defaults:
       layout: post
     output: true
-  projects:
-    output: true
+#  projects:
+#    output: true
 
 # -----------------------------------------------------------------------------
-# Jekyll settings
+# Jekyll 设置
 # -----------------------------------------------------------------------------
 
-# Markdown and syntax highlight
+# Markdown 与语法高亮
 markdown: kramdown
 highlighter: rouge
 kramdown:
@@ -160,42 +161,62 @@ kramdown:
       line_numbers: false
       start_line: 1
 
-# Includes & excludes
-include: ["_pages", "_scripts"]
+# 包含与排除
+include: [ "_pages", "_scripts" ]
 exclude:
   - bin/
   - CONTRIBUTING.md
-  - CONTRIBUTING.pt-br.md
   - CUSTOMIZE.md
-  - CUSTOMIZE.pt-br.md
   - Dockerfile
   - docker-compose.yml
   - docker-compose-slim.yml
   - FAQ.md
-  - FAQ.pt-br.md
   - Gemfile
   - Gemfile.lock
   - INSTALL.md
-  - INSTALL.pt-br.md
   - LICENSE
   - lighthouse_results/
   - package.json
   - package-lock.json
   - _pages/en-us/about_einstein.md
-  - _pages/pt-br/about_einstein.md
   - purgecss.config.js
   - README.md
-  - README.pt-br.md
   - readme_preview/
   - UPGRADING.md
   - vendor
+
+  - _pages/**/repositories.md
+  - _includes/repository
+
+  - _pages/**/projects.md
+  - _includes/projects_horizontal.liquid
+  - _includes/projects.liquid
+  - _projects
+
+  - _pages/books.md
+  - _books
+
+  - _pages/**/profiles.md
+
+  - _posts
+  - _pages/blog.md
+  - _pages/**/blog.md
+  - assets/jupyter/blog.ipynb
+  - _includes/latest_posts.liquid
+  - _includes/related_posts.liquid
+  - _layouts/archive.liquid
+  - _plugins/external-posts.rb
+
+  - _pages/**/teaching.md
+
+
 keep_files:
   - CNAME
   - .nojekyll
 
-# Plug-ins
+# 插件
 plugins:
-  - jekyll-archives-v2
+  #  - jekyll-archives-v2
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
@@ -211,10 +232,10 @@ plugins:
   - jekyll-tabs
   - jekyll-terser
   - jekyll-toc
-  - jekyll-twitter-plugin
+  #  - jekyll-twitter-plugin
   - jemoji
 
-# Sitemap settings
+# Sitemap 设置
 defaults:
   - scope:
       path: "assets"
@@ -230,8 +251,8 @@ sass:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  compress_javascript: false # set to false since we are using terser as the js minifier
-  exclude: ["robots.txt", "assets/js/search/*.js"]
+  compress_javascript: false # 设置为 false，因为我们使用 terser 作为 JS 压缩器
+  exclude: [ "robots.txt", "assets/js/search/*.js" ]
 
 # -----------------------------------------------------------------------------
 # Terser
@@ -246,36 +267,36 @@ terser:
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  posts:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-    permalinks:
-      year: "/blog/:year/"
-      tags: "/blog/:type/:name/"
-      categories: "/blog/:type/:name/"
+  #  posts:
+  #    enabled: [ year, tags, categories ] # 启用按年份、标签和类别归档（如果不需要可删除其中一项）
+  #    permalinks:
+  #      year: "/blog/:year/"
+  #      tags: "/blog/:type/:name/"
+  #      categories: "/blog/:type/:name/"
   books:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+    enabled: [ year, tags, categories ] # 启用按年份、标签和类别归档（如果不需要可删除其中一项）
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: [ "formatting", "images", "links", "math", "code", "blockquotes" ] # 这些标签将在博客首页显示
+display_categories: [ "external-services" ] # 这些类别将在博客首页显示
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [ Chen ]
+  first_name: [ Yu-Cheng, Yucheng ]
 
   style: apa
   locale: en
 
   source: /_bibliography/
-  bibliography: papers.bib
+  bibliography: first_corresponding_papers.bib
   bibliography_template: bib
-  # Note: if you have latex math in your bibtex, the latex filter
-  # preprocessing may conflict with MathJAX if the latter is enabled.
-  # See https://github.com/alshedivat/al-folio/issues/357.
-  bibtex_filters: [latex, smallcaps, superscript]
+  # 注意：如果 bibtex 中有 latex 数学公式，latex 过滤器
+  # 与 MathJAX 可能冲突（如果启用 MathJAX）。
+  # 参考 https://github.com/alshedivat/al-folio/issues/357。
+  bibtex_filters: [ latex, smallcaps, superscript ]
 
   replace_strings: true
   join_strings: true
@@ -287,15 +308,15 @@ scholar:
   group_by: year
   group_order: descending
 
-# Display different badges withs stats for your publications
-# Customize badge behavior in _layouts/bib.liquid
+# 为你的出版物显示不同徽章
+# 在 _layouts/bib.liquid 中自定义徽章行为
 enable_publication_badges:
-  altmetric: true # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
-  dimensions: true # Dimensions badge (Customization options: https://badge.dimensions.ai/)
-  google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
-  inspirehep: true # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
+  altmetric: true # Altmetric 徽章（自定义选项：https://badge-docs.altmetric.com/index.html）
+  dimensions: true # Dimensions 徽章（自定义选项：https://badge.dimensions.ai/）
+  google_scholar: true # Google Scholar 徽章（https://scholar.google.com/intl/en/scholar/citations.html）
+  inspirehep: true # Inspire HEP 徽章（https://help.inspirehep.net/knowledge-base/citation-metrics/）
 
-# Filter out certain bibtex entry keywords used internally from the bib output
+# 从 bib 输出中过滤掉某些内部使用的 bibtex 关键词
 filtered_bibtex_keywords:
   [
     abbr,
@@ -322,18 +343,11 @@ filtered_bibtex_keywords:
     website,
   ]
 
-# Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
-more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
-
-# Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
-enable_publication_thumbnails: true
-
 # -----------------------------------------------------------------------------
 # Jekyll Link Attributes
 # -----------------------------------------------------------------------------
 
-# These are the defaults
+# 这些是默认设置
 external_links:
   enabled: true
   rel: external nofollow noopener
@@ -344,21 +358,22 @@ external_links:
 # Jekyll Polyglot
 # -----------------------------------------------------------------------------
 
-languages: ["en-us", "pt-br", "fr-ca"]
-default_lang: "en-us"
-exclude_from_localization: ["assets"]
+languages: [ "en-us", "zh-cn" ]
+default_lang: "zh-cn"
+exclude_from_localization: [ "assets" ]
 lang_from_path: true
-country_flag: false # set true for allowing flag symbol in language toggle
-parallel_localization: false
+country_flag: false # 设置为 true 可在语言切换中显示国家旗帜
+parallel_localization: true
 
 # -----------------------------------------------------------------------------
-# Responsive WebP Images
+# 响应式 WebP 图片
 # -----------------------------------------------------------------------------
 
-# MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
+# 启用 imagemagick 前，请确保已安装并添加到系统 PATH。
+# 在终端运行：
 #   convert -version
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: true # 启用网站响应式图片（推荐，参考：https://github.com/alshedivat/al-folio/issues/537）
   widths:
     - 480
     - 800
@@ -374,43 +389,43 @@ imagemagick:
   output_formats:
     webp: "-quality 85"
 
-# Lazy loading images
-#   If you enable lazy loading, all images will add the loading="lazy" attribute.
-#   This will make your site load faster, but it may not be supported in all browsers.
-#   You can also set loading="" to other values for specific images to override the default behavior.
-#   Options: "auto", "eager", "lazy"
-#   See https://web.dev/browser-level-image-lazy-loading/ for more information.
-lazy_loading_images: true # enables lazy loading of images (recommended)
+# 图片懒加载
+#   启用后，所有图片将自动添加 loading="lazy" 属性
+#   可加快网站加载速度，但并非所有浏览器都支持
+#   也可为单张图片覆盖默认行为，设置 loading=""
+#   可选值："auto", "eager", "lazy"
+#   参考：https://web.dev/browser-level-image-lazy-loading/
+lazy_loading_images: true # 启用图片懒加载（推荐）
 
 # -----------------------------------------------------------------------------
-# Optional Features
+# 可选功能
 # -----------------------------------------------------------------------------
 
-enable_google_analytics: false # enables google analytics
-enable_cronitor_analytics: false # enables cronitor RUM analytics
-enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
-enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)
-enable_google_verification: false # enables google site verification
-enable_bing_verification: false # enables bing site verification
-enable_masonry: true # enables automatic project cards arrangement
-enable_math: true # enables math typesetting (uses MathJax)
-enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
-enable_darkmode: true # enables switching between light/dark modes
-enable_navbar_social: false # enables displaying social links in the navbar on the about page
-enable_project_categories: true # enables categorization of projects into multiple categories
-enable_medium_zoom: true # enables image zoom feature (as on medium.com)
-enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
-enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
+enable_google_analytics: true # 启用 Google Analytics
+enable_cronitor_analytics: true # 启用 cronitor RUM 分析
+enable_pirsch_analytics: true # 启用 Pirsch 分析
+enable_openpanel_analytics: true # 启用 Openpanel 分析
+enable_google_verification: false # 启用 Google 网站验证
+enable_bing_verification: false # 启用 Bing 网站验证
+enable_masonry: true # 启用自动排列项目卡片
+enable_math: false # 启用数学公式排版（使用 MathJax）
+enable_tooltips: true # 启用页面和文章标题的自动提示链接
+enable_darkmode: true # 启用切换亮/暗模式
+enable_navbar_social: true # 在关于页面导航栏显示社交链接
+enable_project_categories: true # 启用项目多类别分类
+enable_medium_zoom: true # 启用图片放大功能（如 medium.com）
+enable_progressbar: true # 启用与垂直滚动位置关联的水平进度条
+enable_video_embedding: false # 启用 bibtex 条目视频嵌入，若 false，则按钮会在新窗口打开视频链接
 
 # -----------------------------------------------------------------------------
-# Library versions
+# 库版本
 # -----------------------------------------------------------------------------
 
-# Add the url, version and integrity hash of the libraries you use in your site.
-# The integrity hash is used to ensure that the library is not tampered with.
-# Integrity hashes not provided by the libraries were generated using https://www.srihash.org/
+# 添加网站使用的第三方库 URL、版本及完整性哈希
+# 完整性哈希用于保证库未被篡改
+# 未提供的哈希可使用 https://www.srihash.org/ 生成
 third_party_libraries:
-  download: false # if true, download the versions of the libraries specified below and use the downloaded files
+  download: false # 若为 true，将下载以下指定版本并使用下载文件
   bootstrap-table:
     integrity:
       css: "sha256-uRX+PiRTR4ysKFRCykT8HLuRCub26LgXJZym3Yeom1c="
@@ -632,25 +647,25 @@ third_party_libraries:
     version: "2.1.8"
 
 # -----------------------------------------------------------------------------
-# Get external JSON data
+# 获取外部 JSON 数据
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume_en-us
-    json: assets/json/resume_en-us.json # it can also be an url
-  - data: resume_pt-br
-    json: assets/json/resume_pt-br.json # it can also be an url
-
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references
+#jekyll_get_json:
+#  - data: resume_en-us
+#    json: assets/json/resume_en-us.json # 也可以是 URL
+#  - data: resume_zh-cn
+#    json: assets/json/resume_zh-cn.json # 也可以是 URL
+#
+#jsonresume:
+#  - basics
+#  - work
+#  - education
+#  - publications
+#  - projects
+#  - volunteer
+#  - awards
+#  - certificates
+#  - skills
+#  - languages
+#  - interests
+#  - references

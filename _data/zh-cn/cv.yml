@@ -1,0 +1,117 @@
+- title: 基本信息
+  type: map
+  contents:
+    - name: 研究方向
+      value: 生物分离、生物制药、人工智能
+    - name: 电子邮箱
+      value: yu-cheng.chen(at)fzu.edu.cn
+    - name: 通讯地址
+      value: 福州大学城乌龙江北大道2号，福建 福州 350108
+
+- title: 工作经历
+  type: time_table
+  contents:
+    - title: 副教授（校聘）
+      institution: 福州大学
+      department: 生物科学与工程学院 生物技术与工程系
+      location: 福建 福州
+      year: 2025.11&emsp;&emsp;至今
+      description:
+    - title: 讲师
+      institution: 福州大学
+      department: 生物科学与工程学院 生物技术与工程系
+      location: 福建 福州
+      year: 2025.09-2025.11
+      description:
+
+- title: 教育经历
+  type: time_table
+  contents:
+    - title: 研究生学历/工学博士学位
+      institution: 浙江大学
+      department: 化学工程与生物工程学院 生物工程研究所
+      location: 浙江 杭州
+      year: 2020.09 - 2025.06
+      description:
+        - 专业：化学工程与技术（学科评估A）
+        - 学制：5年（保送直博）
+        - 学位论文：生物制药层析分离的建模与优化：从机理驱动到混合模型
+
+    - title: 博士联合培养
+      institution: 米兰理工大学
+      department: 化学部
+      location: 意大利 米兰
+      year: 2023.11 - 2024.10
+      description:
+        - 专业：化学工程
+        - 学制：1年（国家留学基金委资助）
+        - 研究内容：基于可微分物理求解器的少样本混合模型用于小核酸药物反相层析纯化
+
+    - title: 博士联合培养
+      institution: 维也纳自然资源与生命科学大学
+      department: 生物过程科学与工程研究所
+      location: 奥地利 维也纳
+      year: 2023.04 - 2023.09
+      description:
+        - 专业：生物技术
+        - 学制：半年（中国科技部资助）
+        - 研究内容：连续病毒过滤过程中的停留时间分布
+
+    - title: 本科学历/工学学士学位
+      institution: 厦门大学
+      department: 化学化工学院 化学工程与生物工程系
+      location: 福建 厦门
+      year: 2016.09 - 2020.06
+      description:
+        - 专业：生物工程（学科评估A-）
+        - 学制：4年
+        - 研究内容：三孢布拉氏霉生产 β-胡萝卜的发酵动力学模型构建和优化
+
+- title: 主持项目
+  type: time_table
+  contents:
+    - title: 福州大学引进人才科研启动项目
+      year: 2025.10 - 2027.09
+      description:
+        - 名称：离子交换层析机理建模与工艺优化研究
+
+- title: 参与项目
+  type: time_table
+  contents:
+    - title: 国家重点研发计划-政府间国际科技创新合作
+      year: 2021.10 - 2023.09
+      description:
+        - 名称：抗体药物连续制造先进平台的合作研究
+        - 编号：2021YFE0113300
+    - title: 国家自然科学基金面上项目
+      year: 2024.01 - 2027.12
+      description:
+        - 名称：基于双水相萃取的病毒载体连续分离新方法研究
+        - 编号：22378350
+    - title: 国家自然科学基金面上项目
+      year: 2021.01 - 2024.12
+      description:
+        - 名称：模型辅助的抗体连续分离过程设计和控制新方法研究
+        - 编号：22078286
+    - title: 国家自然科学基金面上项目
+      year: 2018.01 - 2021.12
+      description:
+        - 名称：基于定量构效分析的生物分离研究新方法及抗体药物分离
+        - 编号：21878263
+
+#- title: 学术兴趣
+#  type: nested_list
+#  contents:
+#    - title: 主题 1。
+#      items:
+#        - 描述 1。
+#        - 描述 2。
+#    - title: 主题 2。
+#      items:
+#        - 描述 1。
+#        - 描述 2。
+
+#- title: 其他兴趣
+#  type: list
+#  contents:
+#    - <u>爱好：</u> 爱好 1、爱好 2 等。

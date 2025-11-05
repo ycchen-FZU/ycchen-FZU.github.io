@@ -1,101 +1,68 @@
-- title: General Information
+- title: Basic Information
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - name: Research Interests
+      value: Bioseparation, Biopharmaceuticals, Artificial Intelligence
+    - name: Email
+      value: yu-cheng.chen(at)fzu.edu.cn
+    - name: Mailing Address
+      value: No.2 Wulongjiang North Blvd, Fuzhou 350108, China
+
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: Associate Professor
+      institution: Fuzhou University
+      department: College of Biological Science and Engineering
+      location: Fuzhou, China
+      year: 2025.11-Present
+      description:
+    - title: Lecturer
+      institution: Fuzhou University
+      department: College of Biological Science and Engineering
+      location: Fuzhou, China
+      year: 2025.09–2025.11
+      description:
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. of Engineering
+      institution: Zhejiang University
+      department: Institute of Bioengineering, College of Chemical and Biological Engineering
+      location: Hangzhou, China
+      year: 2020.09 – 2025.06
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Major：Chemical Engineering and Technology
+        - Duration：5 years (Direct Doctoral Admission)
+        - Dissertation：Model development and optimization of biopharmaceutical chromatographic separation from mechanism-driven to hybrid modeling
+
+    - title: Visiting Ph.D.
+      institution: Politecnico di Milano
+      department: Department of Chemistry
+      location: Milan, Italy
+      year: 2023.11 – 2024.10
       description:
-        - Description 1.
-        - Description 2.
+        - Major：Chemical Engineering
+        - Duration：1 year (Funded by the China Scholarship Council)
+        - Research Topic：Hybrid modeling of the reversed-phase chromatographic purification of an oligonucleotide：Few-shot learning from differentiable physics solver-in-the-loop
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Visiting Ph.D.
+      institution: University of Natural Resources and Life Sciences, Vienna
+      department: Institute of Bioprocess Science and Engineering
+      location: Vienna, Austria
+      year: 2023.04 – 2023.09
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Major：Biotechnology
+        - Duration：6 months (Funded by the Ministry of Science and Technology of China)
+        - Research Topic：Residence time distribution in continuous virus filtration
+
+    - title: Bachelor of Engineering
+      institution: Xiamen University
+      department: Department of Chemical and Biochemical Engineering, College of Chemistry and Chemical Engineering
+      location: Xiamen, China
+      year: 2016.09 – 2020.06
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>
-      year: 2023-now
-      description: A fork of al-folio theme with support for multiple languages.
-
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - Major：Bioengineering
+        - Duration：4 years
+        - Dissertation：Modeling and Optimization of β-carotene Production by Blakeslea trispora

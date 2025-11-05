@@ -1,34 +1,27 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"yao":
+  - firstname: ["Shan-Jing", "Shanjing"]
+    url: http://che.zju.edu.cn/biomass/2023/0207/c74468a2712730/page.psp
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"姚善泾":
+  - firstname: ["中文名"]
+    url: http://che.zju.edu.cn/biomass/2023/0207/c74468a2712730/page.psp
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"lin":
+  - firstname: ["Dong-Qiang", "Dongqiang"]
+    url: https://person.zju.edu.cn/0098032
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"林东强":
+  - firstname: ["中文名"]
+    url: https://person.zju.edu.cn/haibinqu
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"qu":
+  - firstname: ["Hai-Bin", "Haibin"]
+    url: https://person.zju.edu.cn/haibinqu
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"jungbauer":
+  - firstname: ["Alois"]
+    url: https://boku.ac.at/en/personen/person/4482E653E2B4C1B3/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"sponchioni":
+  - firstname: ["Mattia"]
+    url: https://www.cmic.polimi.it/en/persone/docenti-e-ricercatori/sponchioni-mattia/
