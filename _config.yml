@@ -165,12 +165,9 @@ kramdown:
 include: [ "_pages", "_scripts" ]
 exclude:
   - bin/
-  - CONTRIBUTING.md
-  - CUSTOMIZE.md
   - Dockerfile
   - docker-compose.yml
   - docker-compose-slim.yml
-  - FAQ.md
   - Gemfile
   - Gemfile.lock
   - INSTALL.md
@@ -182,7 +179,6 @@ exclude:
   - purgecss.config.js
   - README.md
   - readme_preview/
-  - UPGRADING.md
   - vendor
 
   - _pages/**/repositories.md
