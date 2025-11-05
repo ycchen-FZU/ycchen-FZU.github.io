@@ -195,6 +195,7 @@ exclude:
 
   - _pages/books.md
   - _books
+  - assets/img/book_covers
 
   - _pages/**/profiles.md
 
@@ -209,6 +210,7 @@ exclude:
 
   - _pages/**/teaching.md
 
+  - assets/img/flags
 
 keep_files:
   - CNAME
