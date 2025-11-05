@@ -216,7 +216,7 @@ keep_files:
 
 # 插件
 plugins:
-  #  - jekyll-archives-v2
+  - jekyll-archives-v2
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
@@ -232,7 +232,7 @@ plugins:
   - jekyll-tabs
   - jekyll-terser
   - jekyll-toc
-  #  - jekyll-twitter-plugin
+  - jekyll-twitter-plugin
   - jemoji
 
 # Sitemap 设置
