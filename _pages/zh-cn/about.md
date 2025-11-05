@@ -3,7 +3,6 @@ page_id: about
 layout: about
 title: 主页
 permalink: /
-subtitle:
 
 profile:
   align: left

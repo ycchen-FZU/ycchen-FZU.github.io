@@ -45,6 +45,7 @@ a.btncv:hover {
 p.location {
   font-size: 0.7rem;
   white-space: nowrap;
+  margin-bottom: 0.0rem;
 }
 
 i.iconlocation {
@@ -149,6 +150,16 @@ p.list-group-time {
 td.list-group-link {
   padding-left: 0.5rem;
 }
+
+/*****************************
+ * CV LIST_GROUPS styles
+ *****************************/
+
+li.list-group-item {
+  padding-left: 0.0rem;
+  padding-right: 0.0rem;
+}
+
 
 /*****************************
  * CV TOC styles
