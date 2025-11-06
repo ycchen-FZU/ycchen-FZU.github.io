@@ -15,6 +15,6 @@ description:
 
 <div class="publications">
 
-{% bibliography --file first_corresponding_papers %}
+{% bibliography -f first_corresponding_papers %}
 
 </div>

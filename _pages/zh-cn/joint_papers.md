@@ -15,6 +15,6 @@ description:
 
 <div class="publications">
 
-{% bibliography --file joint_papers %}
+{% bibliography -f joint_papers %}
 
 </div>

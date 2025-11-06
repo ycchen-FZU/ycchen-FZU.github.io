@@ -9,12 +9,14 @@ description:
   按时间倒序排列，由 jekyll-scholar 生成。
 ---
 
+{% include bib_count.liquid %}
+
 <!-- Bibsearch Feature -->
 
 {% include bib_search.liquid %}
 
 <div class="publications">
 
-{% bibliography --file first_corresponding_papers %}
+{% bibliography -f first_corresponding_papers %}
 
 </div>

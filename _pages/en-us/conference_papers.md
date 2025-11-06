@@ -13,6 +13,6 @@ description:
 
 <div class="publications">
 
-{% bibliography --file conference_papers %}
+{% bibliography -f conference_papers %}
 
 </div>

@@ -12,6 +12,6 @@ description: 按时间倒序排列，由 jekyll-scholar 生成。
 
 <div class="publications">
 
-{% bibliography --file books %}
+{% bibliography -f books %}
 
 </div>

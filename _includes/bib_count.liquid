@@ -1,0 +1,25 @@
+{% capture count_total %}
+  {% bibliography_count -f first_corresponding_papers %}
+{% endcapture %}
+{% capture count_top %}
+  {% bibliography_count -f first_corresponding_papers --query @*[journal=Biotechnology and Bioengineering] %}
+{% endcapture %}
+{% capture count_zy %}
+  {% bibliography_count -f first_corresponding_papers --query @*[sci<=2] %}
+{% endcapture %}
+
+{% assign count_total = count_total | strip %}
+{% assign count_top = count_top | strip %}
+{% assign count_zy = count_zy | strip %}
+{% assign count_yilei = count_total | minus: count_top | minus: count_zy %}
+
+<p class="post-description">数量: {{ count_total }}篇<br>
+福州大学：国际顶级{{count_top}}篇，
+卓越{{count_zy}}篇，
+一类核心{{ count_yilei }}篇<br>
+JCR：{% bibliography_count -f first_corresponding_papers --query @*[jcr=1] %}篇Q1，
+{% bibliography_count -f first_corresponding_papers --query @*[jcr=2] %}篇Q2<br>
+中科院：{% bibliography_count -f first_corresponding_papers --query @*[sci=1] %}篇1区，
+{% bibliography_count -f first_corresponding_papers --query @*[sci=2] %}篇2区，
+{% bibliography_count -f first_corresponding_papers --query @*[sci=3] %}篇3区
+</p>

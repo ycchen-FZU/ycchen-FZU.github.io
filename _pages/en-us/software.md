@@ -13,6 +13,6 @@ description:
 
 <div class="publications">
 
-{% bibliography --file software %}
+{% bibliography -f software %}
 
 </div>
