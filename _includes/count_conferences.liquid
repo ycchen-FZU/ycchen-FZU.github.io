@@ -1,0 +1,14 @@
+{% capture count_total %}
+    {%- bibliography_count -f conference_papers -%}
+{% endcapture %}
+{% capture count_domestic %}
+    {%- bibliography_count -f conference_papers --query @*[author ^= 陈煜成] -%}
+{% endcapture %}
+{% assign count_international = count_total | minus: count_domestic %}
+
+<p class="post-description">数量：{{ count_total }}次，<br>
+    国内：{{ count_domestic }}次，国际：{{ count_international }}次<br>
+    特邀报告Invited：{% bibliography_count -f conference_papers --query @*[presentation = Invited] %}次，
+    口头报告Oral：{% bibliography_count -f conference_papers --query @*[presentation = Oral] %}次，
+    海报展示Poster：{% bibliography_count -f conference_papers --query @*[presentation = Poster] %}次
+</p>

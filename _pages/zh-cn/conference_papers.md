@@ -6,6 +6,8 @@ title: 会议论文
 description: 按时间倒序排列，由 jekyll-scholar 生成。
 ---
 
+{% include count_conferences.liquid %}
+
 <!-- Bibsearch Feature -->
 
 {% include bib_search.liquid %}

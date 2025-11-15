@@ -9,7 +9,7 @@ description:
   按时间倒序排列，由 jekyll-scholar 生成。
 ---
 
-{% include bib_count.liquid %}
+{% include count_papers.liquid %}
 
 <!-- Bibsearch Feature -->
 

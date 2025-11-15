@@ -51,6 +51,7 @@ table.table a {
 
 .table-dark {
   background-color: transparent;
+
   &.table-bordered {
     border: 1px solid var(--global-divider-color) !important;
   }
@@ -483,6 +484,10 @@ footer.fixed-bottom {
     padding-top: 9px;
     padding-bottom: 8px;
     text-align: center;
+
+    span {
+      color: var(--global-footer-text-color);
+    }
   }
 
   a {
@@ -805,6 +810,7 @@ footer.sticky-bottom {
             border-color: var(--global-theme-color);
           }
         }
+
         a.award.btn {
           border-color: var(--global-highlight-color);
         }
@@ -812,6 +818,7 @@ footer.sticky-bottom {
 
       .badges {
         padding-bottom: 0.5rem;
+
         span {
           display: inline-block;
           color: $black-color;
@@ -867,9 +874,11 @@ footer.sticky-bottom {
         border-color: var(--global-text-color);
       }
     }
+
     div.award.hidden {
       border: dashed 1px var(--global-bg-color);
     }
+
     div.award.hidden.open {
       border-color: var(--global-highlight-color);
     }
@@ -1209,11 +1218,13 @@ ninja-keys {
     font-size: 1.25em;
     fill: currentColor;
   }
+
   .ninja-examplekey.esc {
     width: auto;
     height: auto;
     font-size: 1.1em;
   }
+
   .ninja-examplekey.backspace {
     opacity: 0.7;
   }
