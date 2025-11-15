@@ -62,8 +62,16 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/en-us/software/";
               },
-            },{id: "news-my-academic-homepage-is-now-live-sparkles-smile",
-          title: 'My academic homepage is now live! :sparkles: :smile:',
+            },{id: "news-my-personal-homepage-is-now-live-sparkles-smile",
+          title: 'My personal homepage is now live! :sparkles: :smile:',
+          description: "",
+          section: "News",},{id: "news-2025第八届生物化工青年学者论坛暨第十四届生物化工技术创新及产业发展研讨会-口头报告",
+          title: '“2025第八届生物化工青年学者论坛暨第十四届生物化工技术创新及产业发展研讨会“口头报告',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/en-us/news/zh-cn/20251108.html";
+            },},{id: "news-我的福大主页上线啦",
+          title: '我的福大主页上线啦！',
           description: "",
           section: "News",},{
           id: 'lang-zh-cn',
