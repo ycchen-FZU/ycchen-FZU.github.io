@@ -70,8 +70,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/en-us/news/zh-cn/20251108.html";
-            },},{id: "news-我的福大主页上线啦",
-          title: '我的福大主页上线啦！',
+            },},{id: "news-福大主页上线啦",
+          title: '福大主页上线啦！',
           description: "",
           section: "News",},{
           id: 'lang-zh-cn',
